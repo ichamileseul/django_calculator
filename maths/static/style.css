@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+input{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 180px;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+    
+}
+.back button{
+    padding: 5px 10px;
+}
+.asw h1{
+    font-size: 74px;
+    font-weight: bolder;
+}
+
